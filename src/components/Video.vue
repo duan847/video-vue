@@ -41,7 +41,6 @@
                     userActions: {
                         hotkeys: function(event) {
                             // `this` is the player in this context
-alert(event)
                             // `x` key = pause
                             if (event.which === 88) {
                                 this.pause();
